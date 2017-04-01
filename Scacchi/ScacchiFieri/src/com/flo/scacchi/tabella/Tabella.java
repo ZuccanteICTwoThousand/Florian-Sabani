@@ -11,4 +11,10 @@ package com.flo.scacchi.tabella;
  */
 public class Tabella {
     
+    
+    public Posto getPosto(final int coordinatePosto){
+        return null;
+        // per ora.
+    }
+    
 }

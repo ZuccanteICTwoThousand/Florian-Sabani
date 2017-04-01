@@ -8,7 +8,7 @@ import guiDopo.Main;
 
 
 // Voglio farla immutabile quindi in alcun modo potro andare a modificare lo stato delle mie classi
-abstract class Posto { 
+public abstract class Posto { 
     /*
     // Essendo di tipo abstact non possiamo creare un nuovo posto non puo essere istanziata
     // Ma possiamo istanziare delle subclasses;
@@ -27,7 +27,7 @@ abstract class Posto {
     public abstract Pezzo getPezzo();    //i metodi abstact verranno dichiarati dopo in una sottoclasse
 
     private static  Map<Integer, PostoVuoto> possibiliPostiVuoti() {
-        final Map<Integer,PostoVuoto> mappa = new HashMap<>();  //Matrice vuota
+        final Map<Integer,PostoVuoto> mappa = new HashMap<>();  //Le Mappe sono come le matrici solo che le righe non si contano vuota
         final int numeroCaselle = 64;   // numero di caselle
         // Riempio la mappa con tutte caselle inizialmente vuote
         for (int i = 0; i < numeroCaselle; i++) {

@@ -24,4 +24,8 @@ public abstract class Pezzo {
     Rappresentabili da un'arrayList.
     */
     public abstract List<Movimenti> movimentiFattibili (final Tabella tabella);
+    
+    public Squadra getSquadra(){
+        return this.squadraPezzo;
+    }
 }
