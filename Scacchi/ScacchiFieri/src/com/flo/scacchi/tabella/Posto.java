@@ -1,5 +1,6 @@
 package com.flo.scacchi.tabella;
 
+import com.flo.scacchi.ControlliScacchi;
 import com.flo.scacchi.Pezzo;
 import com.google.common.collect.ImmutableMap;
 import java.util.HashMap;
@@ -28,7 +29,7 @@ public abstract class Posto {
 
     private static  Map<Integer, PostoVuoto> possibiliPostiVuoti() {
         final Map<Integer,PostoVuoto> mappa = new HashMap<>();  //Le Mappe sono come le matrici solo che le righe non si contano vuota
-        final int numeroCaselle = 64;   // numero di caselle
+        final int numeroCaselle = ControlliScacchi.numeroDiCaselle;   // numero di caselle
         // Riempio la mappa con tutte caselle inizialmente vuote
         for (int i = 0; i < numeroCaselle; i++) {
             mappa.put(i,new PostoVuoto(i));
@@ -71,7 +72,7 @@ public abstract class Posto {
 
         private final Pezzo pezzo;  //immutabile
 
-        PostoOccupato(int coordinata, Pezzo pezzo) {
+        PostoOccupato(final int coordinata, Pezzo pezzo) {
             super(coordinata);
             this.pezzo = pezzo;
         }

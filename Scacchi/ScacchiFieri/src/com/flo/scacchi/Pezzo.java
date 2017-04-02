@@ -24,6 +24,7 @@ public abstract class Pezzo {
     Rappresentabili da un'arrayList.
     */
     // I collection a differenza delle Liste(ArrayList) non possono avere elementi doppi.
+    // E i collection non sono ordinati quindi non possiamo andare a prendere elementi in particolare indici
     public abstract Collection<Movimenti> movimentiFattibili (final Tabella tabella);   //Vengono anche chiamati set.  
     
     public Squadra getSquadra(){

@@ -2,6 +2,7 @@ package com.flo.scacchi;
 
 import com.flo.scacchi.alleanza.Squadra;
 import com.flo.scacchi.tabella.Movimenti;
+import com.flo.scacchi.tabella.Movimenti.*; // I varii tipi di movimenti
 import com.flo.scacchi.tabella.Tabella;
 import com.flo.scacchi.tabella.Posto;
 import com.google.common.collect.ImmutableList;
@@ -26,7 +27,7 @@ public class Cavallo extends Pezzo {
     }
 
     @Override
-    public Collection<Movimenti> movimentiFattibili(Tabella tabella) {
+    public Collection<Movimenti> movimentiFattibili(final Tabella tabella) {
         // Movimenti a L
         //int movimentoCoordinata;
         final List<Movimenti> movimenti = new ArrayList<>();
@@ -48,16 +49,16 @@ public class Cavallo extends Pezzo {
                 final Posto casella = tabella.getPosto(movimentoCoordinata);
                 // Se dove vogliamo andare non e occupato
                 if (!casella.isPostoOccupato()) {
-                    movimenti.add(new Movimenti()); // Lo occupiamo noi a cazzo dritto
+                    movimenti.add(new MovimentoGrande(tabella ,this, movimentoCoordinata)); // Lo occupiamo noi a cazzo dritto
                 } else // Se invece é occupato cerchiamo di capire se ce un nemico o un alleato 
                 {
-                    Pezzo DestinazionePezzo = casella.getPezzo();
-                    Squadra pezzoSquadra = DestinazionePezzo.getSquadra();  // prendiamo linfo del pezzo che occupa la casella chiedendoci la squadra se nera o bianca
+                    Pezzo destinazionePezzo = casella.getPezzo();
+                    Squadra pezzoSquadra = destinazionePezzo.getSquadra();  // prendiamo linfo del pezzo che occupa la casella chiedendoci la squadra se nera o bianca
                     // Se la squadra del nostro pezzo é diversa da quella del pezzo che occupa la casella in cui vorremmo andare
                     // allora pettini
                     if (this.squadraPezzo != pezzoSquadra) {
                         // Siamo su un personaggio della squadra avversaria.
-                        movimenti.add(new Movimenti()); // movimento per ora lasciamolo cosi
+                        movimenti.add(new MovimentoMangia(tabella,this,movimentoCoordinata,destinazionePezzo)); // movimento per ora lasciamolo cosi
                     }
                     // ancora roba da fare qui.
                 }
