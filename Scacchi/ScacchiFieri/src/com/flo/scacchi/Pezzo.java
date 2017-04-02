@@ -3,7 +3,7 @@ package com.flo.scacchi;
 import com.flo.scacchi.alleanza.Squadra;
 import com.flo.scacchi.tabella.Movimenti;
 import com.flo.scacchi.tabella.Tabella;
-import java.util.List;
+import java.util.Collection;
 
 /**
  *
@@ -23,7 +23,8 @@ public abstract class Pezzo {
     /* Ogni pezzo diverso retituira una serie di movimenti fattibili diversi
     Rappresentabili da un'arrayList.
     */
-    public abstract List<Movimenti> movimentiFattibili (final Tabella tabella);
+    // I collection a differenza delle Liste(ArrayList) non possono avere elementi doppi.
+    public abstract Collection<Movimenti> movimentiFattibili (final Tabella tabella);   //Vengono anche chiamati set.  
     
     public Squadra getSquadra(){
         return this.squadraPezzo;
