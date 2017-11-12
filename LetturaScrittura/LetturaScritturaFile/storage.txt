@@ -1,0 +1,61 @@
+alessio;;Sun Oct 22 15:00:30 CEST 2017
+Gruppi : 
+  		   Gruppo 0 : Gruppo Di Giorgio Potere : Membro Contenuto : null
+    						         Membro n^0 : gino Passwd : ciao123
+    						         Membro n^1 : alessio Passwd : 
+    						         Membro n^2 : Stevanato Passwd : hs123
+    						         Membro n^3 : Marco Passwd : noob
+    						         Membro n^4 : Xilo Passwd : GymSharkFucker
+    						         Membro n^5 : Igor Passwd : checazzoeigor
+  		   Gruppo 1 : Gruppo di Alessio Potere : Fondatore Contenuto : null
+    						         Fondatore n^0 : gino Passwd : ciao123
+    						         Fondatore n^1 : giorgio Passwd : meme
+  		   Gruppo 2 : Gruppo Secondo Potere : Fondatore Contenuto : null
+    						         Fondatore n^0 : marta Passwd : ehSi
+marta;ehSi;Sun Oct 22 15:00:30 CEST 2017
+  		   Gruppo 0 : Gruppo Secondo Potere : Fondatore Contenuto : null
+    						         Fondatore n^0 : marta Passwd : ehSi
+giorgio;meme;Sun Oct 22 15:00:30 CEST 2017
+Gruppi : 
+  		   Gruppo 0 : Gruppo Di Giorgio Potere : Fondatore Contenuto : null
+    						         Fondatore n^0 : gino Passwd : ciao123
+    						         Fondatore n^1 : alessio Passwd : 
+    						         Fondatore n^2 : Stevanato Passwd : hs123
+    						         Fondatore n^3 : Marco Passwd : noob
+    						         Fondatore n^4 : Xilo Passwd : GymSharkFucker
+    						         Fondatore n^5 : Igor Passwd : checazzoeigor
+  		   Gruppo 1 : Gruppo di Alessio Potere : Membro Contenuto : null
+    						         Membro n^0 : gino Passwd : ciao123
+    						         Membro n^1 : giorgio Passwd : meme
+Stevanato;hs123;Sun Oct 22 15:00:30 CEST 2017
+  		   Gruppo 0 : Gruppo Di Giorgio Potere : Membro Contenuto : null
+    						         Membro n^0 : gino Passwd : ciao123
+    						         Membro n^1 : alessio Passwd : 
+    						         Membro n^2 : Stevanato Passwd : hs123
+    						         Membro n^3 : Marco Passwd : noob
+    						         Membro n^4 : Xilo Passwd : GymSharkFucker
+    						         Membro n^5 : Igor Passwd : checazzoeigor
+Marco;noob;Sun Oct 22 15:00:30 CEST 2017
+  		   Gruppo 0 : Gruppo Di Giorgio Potere : Membro Contenuto : null
+    						         Membro n^0 : gino Passwd : ciao123
+    						         Membro n^1 : alessio Passwd : 
+    						         Membro n^2 : Stevanato Passwd : hs123
+    						         Membro n^3 : Marco Passwd : noob
+    						         Membro n^4 : Xilo Passwd : GymSharkFucker
+    						         Membro n^5 : Igor Passwd : checazzoeigor
+Xilo;GymSharkFucker;Sun Oct 22 15:00:30 CEST 2017
+  		   Gruppo 0 : Gruppo Di Giorgio Potere : Membro Contenuto : null
+    						         Membro n^0 : gino Passwd : ciao123
+    						         Membro n^1 : alessio Passwd : 
+    						         Membro n^2 : Stevanato Passwd : hs123
+    						         Membro n^3 : Marco Passwd : noob
+    						         Membro n^4 : Xilo Passwd : GymSharkFucker
+    						         Membro n^5 : Igor Passwd : checazzoeigor
+Igor;checazzoeigor;Sun Oct 22 15:00:30 CEST 2017
+  		   Gruppo 0 : Gruppo Di Giorgio Potere : Membro Contenuto : null
+    						         Membro n^0 : gino Passwd : ciao123
+    						         Membro n^1 : alessio Passwd : 
+    						         Membro n^2 : Stevanato Passwd : hs123
+    						         Membro n^3 : Marco Passwd : noob
+    						         Membro n^4 : Xilo Passwd : GymSharkFucker
+    						         Membro n^5 : Igor Passwd : checazzoeigor

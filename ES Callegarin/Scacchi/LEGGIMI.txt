@@ -1,0 +1,3 @@
+ciao , ho iniziato a fare un progetto di scacchi , ne sarei grato se mi aiutassi a completarlo. per ora non ce quasi nulla ho inizializzato qualche classe fatto la gui non completa affatto , la classe che gestisce il tutto é immutabile , questo progetto lo rendo free a tutti proprio per far vedere magari quale potrebbe essere un buon modo di organizzare un progetto coi package , classi , immutabilita delle classi e commentarli a dovuto(forse) che e l'argomento che stiamo facendo , e per ricervere consigli su come migliorarmi , ty bb ;).
+
+AH lho fatto con netbeans... niente intellj sorry :C
